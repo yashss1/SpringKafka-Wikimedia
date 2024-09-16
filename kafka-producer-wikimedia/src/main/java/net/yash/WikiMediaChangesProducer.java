@@ -35,6 +35,6 @@ public class WikiMediaChangesProducer {
         EventSource eventSource = builder.build();
         eventSource.start();
 
-        TimeUnit.MINUTES.sleep(10);
+        TimeUnit.MINUTES.sleep(1);
     }
 }
